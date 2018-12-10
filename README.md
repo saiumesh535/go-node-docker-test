@@ -9,6 +9,6 @@ once you run those commands, node will run on port 3000 on host machine.
 
 This is basic project to show how containers can communicate each other via http
 
-visit http://localhost:3000/gocrypto - hashing in node using bcryptjs
+visit http://localhost:3000/gocrypto - hashing in golang using bcrypt
 
-and http://localhost:3000/nodecrypto - hashing in golang using bcrypt
+and http://localhost:3000/nodecrypto - hashing in node using bcryptjs
