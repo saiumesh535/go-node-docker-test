@@ -15,7 +15,7 @@ and http://localhost:3000/nodecrypto - hashing in node using bcryptjs
 
 ## Benchmarks
 
-C:\Users\SaiUmesh>autocannon -c 10 -d 50 http://localhost:3000/nodecrypto
+``C:\Users\SaiUmesh>autocannon -c 10 -d 50 http://localhost:3000/nodecrypto
 Running 50s test @ http://localhost:3000/nodecrypto
 10 connections
 
@@ -36,4 +36,4 @@ Latency (ms) 4574.27 378.38 5478.4
 Req/Sec      2.1     2.85   10
 Bytes/Sec    625 B   848 B  2.97 kB
 
-105 requests in 50s, 31.2 kB read
+105 requests in 50s, 31.2 kB read``
