@@ -1,0 +1,6 @@
+version: "3"
+services:
+  docker-example-go:
+    image: go-of-go-node
+    ports:
+      - "3003:3003"

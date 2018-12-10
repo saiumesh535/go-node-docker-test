@@ -1,0 +1,12 @@
+version: "3.0"
+services:
+
+  proxy-pass:
+    image: node-of-go-node
+    ports:
+      - 3000:3001
+
+  go-of-go-node:
+    image: go-of-go-node
+    environment:
+      - PORT=3003
