@@ -4,7 +4,7 @@ RUN apt update
 
 WORKDIR /app
 
-COPY . .
+COPY node .
 
 RUN npm install
 
