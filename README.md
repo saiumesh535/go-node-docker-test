@@ -15,6 +15,12 @@ and http://localhost:3000/nodecrypto - hashing in node using bcryptjs
 
 ## Benchmarks
 
+
+| Command      | server         | Requests Processed |
+| :---         |     :---:      |          ---:      |
+| autocannon -c 10 -d 50 http://localhost:3000/nodecrypto   | node     | 10         |
+| autocannon -c 10 -d 50 http://localhost:3000/gocrypto   | go     | 105         |
+
 ``C:\Users\SaiUmesh>autocannon -c 10 -d 50 http://localhost:3000/nodecrypto
 Running 50s test @ http://localhost:3000/nodecrypto
 10 connections
